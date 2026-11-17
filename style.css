@@ -10,6 +10,8 @@ h1 {
   font-weight: 400;
   font-style: normal;
   background-color: #d6c1a8;
+  padding: 15px;
+  margin-bottom: 5px;
 }
 h3 {
   color: #49372d;
@@ -26,13 +28,13 @@ h4 {
 
 .intro {
   background-color: #f3e9dc;
-  padding: 30px;
+  padding: 35px;
   margin: 30px;
   border: 1px solid #b99b7d;
   border-radius: 12px;
   font-size: large;
   text-align: left;
-  color: #49372d;
+  line-height: 1.8;
 }
 
 .navbar {
@@ -78,12 +80,8 @@ th {
 }
 
 .profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 150px;
-  padding: 30px;
   background-color: #d6c1a8;
+  padding: 30px;
   margin: 20px;
 }
 
@@ -126,8 +124,11 @@ a {
 }
 .tagline {
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   color: #755b49;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #b99b7d;
 }
 .education {
   background-color: #f3e9dc;
